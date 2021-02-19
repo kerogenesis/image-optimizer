@@ -27,7 +27,7 @@ The script uses TinyPNG smart lossy compression techniques to reduce the file si
 1. Install Python 3.8
 2. Clone this repo
 ```
-git clone https://github.com/dt-wark/image-optimizer.git
+git clone https://github.com/kerogenesis/image-optimizer.git
 ```
 
 3. Create and activate virtual environment
