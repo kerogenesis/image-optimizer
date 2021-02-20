@@ -24,7 +24,7 @@ The script uses TinyPNG smart lossy compression techniques to reduce the file si
 
 ## Setup
 
-1. Install Python 3.8
+1. Download and install the latest version of Python
 2. Clone this repo
 ```
 git clone https://github.com/kerogenesis/image-optimizer.git
@@ -32,13 +32,13 @@ git clone https://github.com/kerogenesis/image-optimizer.git
 
 3. Create and activate virtual environment
 ```
-python3.8 -m venv venv
+python3.9 -m venv venv
 source venv/bin/activate
 ```
 
 4. Install dependencies
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Initial setting
@@ -59,7 +59,7 @@ Create `сompression.sh` file with:
 
 ```
 #!/usr/bin/env bash
-source path/to/venv/bin/activate && python3.8 path/to/image_optimizer.py
+source path/to/venv/bin/activate && python3.9 path/to/image_optimizer.py
 ```
 
 Give this file permission to execute:
